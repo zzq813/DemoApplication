@@ -8,9 +8,16 @@
 
 #include <iostream>
 using namespace std;
+int request();
 
 int main() {
     // insert code here...
-    std::cout << "Hello, World!\n"<<endl;
+    
+    cout << "Hello, World!\n"<<endl;
+    request();
+    return 0;
+}
+int request(){
+    cout<<"new hanshu"<<endl;
     return 0;
 }
